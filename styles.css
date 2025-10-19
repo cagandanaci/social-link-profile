@@ -57,7 +57,7 @@ button:hover {
 
 .attribution {
     position: absolute;
-    bottom: 0px;
+    top: 0px;
 
 }
 
@@ -67,3 +67,4 @@ button:hover {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
