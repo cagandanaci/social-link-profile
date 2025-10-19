@@ -58,4 +58,12 @@ button:hover {
 .attribution {
     position: absolute;
     bottom: 0px;
+
+}
+
+@media (max-width=360px) {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
