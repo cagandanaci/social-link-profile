@@ -5,16 +5,18 @@ html {
     color: white;
 }
 
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .middlebox {
-    width: 320px;
-    height: 560px;
     background-color: hsl(0, 0%, 12%);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10rem;
-    border-radius: 10px;
+    min-width: 360px;
+    border-radius: 20px;
     padding: 1%;
-    position: relative;
 }
 img {
     width: 20%;
@@ -56,20 +58,11 @@ button:hover {
 }
 
 .attribution {
-    position: absolute;
-    top: 0px;
-
+    
 }
-
-@media (max-width:360px) {
+/* Mobile layout: center the card vertically and add small side margins to match the design */
+@media (max-width: 375px) {
     .middlebox {
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin: 0px 20px 0px 20px;
     }
 }
-
-
-
-
